@@ -4,7 +4,6 @@
 
 A responsive personal portfolio website showcasing my projects, skills, education, and experience. Built to apply for Frontend Development Internships.
 
-**Live Demo:** (add your live link here)
 
 ---
 
