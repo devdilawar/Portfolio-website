@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammad Dilawar - Frontend Developer Portfolio Website">
+    <meta name="keywords" content="Frontend Developer, Web Developer, Portfolio, HTML, CSS, JavaScript">
+    <meta name="author" content="Muhammad Dilawar">
+
+    <title>Muhammad Dilawar | Frontend Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- loading screen by Dilawar -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">MD</div>
+            <h2 style="font-size: 1.8rem !important;">Portfolio Website</h2>
+            <span>Loading Portfolio...</span>
+        </div>
+    </div>
+
+    
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Header and navbar by Dilawar -->
+
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span>Portfolio Website</span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero section -->
+
+        <section id="home" class="hero section">
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <!-- <span class="hero-badge">
+                        Available For Internship
+                    </span> -->
+
+                    <!-- <h1>
+                        Muhammad <span>Dilawar</span>
+                    </h1> -->
+
+                    <h2>
+                        I'm a
+                        <span id="typingText"></span>
+                    </h2>
+
+                    <p>
+                        Software Engineering student currently in 6th semester,
+                        passionate about building modern, responsive, and
+                        user friendly web applications.
+                    </p>
+
+                    <p>
+                        Actively seeking a Frontend Development Internship
+                        to gain industry experience and contribute to
+                        real-world projects.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="assets/cv.pdf"
+                            class="btn btn-primary"
+                            download>
+                            Download CV
+                        </a>
+
+                        <a href="#contact"
+                            class="btn btn-secondary">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-image">
+
+                    <img src="linkedin.jpg" alt="">
+                       
+
+                </div>
+
+            </div>
+
+        </section>
+
+       <!-- About -->
+
+        <section id="about" class="section">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>About Me</h2>
+                    <!-- <p>Get to know me better</p> -->
+                </div>
+
+                <div class="about-content reveal">
+
+                    <div class="about-card">
+
+                        <h3>Who I am</h3>
+
+                        <p>
+                            Software Engineering student and Frontend Developer with a passion for creating responsive websites, learning modern technologies, and continuously improving technical and problem-solving skills.
+                        </p>
+
+                       
+
+                    </div>
+
+                    <div class="about-card">
+
+                        <h3>Career Goal </h3>
+
+                        <p>
+                            Seeking a Frontend Development Internship where I can apply my technical knowledge, collaborate with professionals, and contribute to meaningful projects while growing as a developer.
+                        </p>
+
+                    </div>
+
+                    <div class="about-card">
+
+                        <h3>Education </h3>
+
+                        <p>
+                            Currently pursuing a Bachelor's degree in Software Engineering, building a strong foundation in programming, web development, and software engineering principles through academic studies.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- skills -->
+
+        <section id="skills" class="section bg-light">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Technical Skills</h2>
+                    <p>Technologies and tools I use to build modern web applications.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card reveal">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="95"></div>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="90"></div>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="85"></div>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <i class="fab fa-php"></i>
+                        <h3>PHP</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="75"></div>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <i class="fas fa-database"></i>
+                        <h3>MySQL</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80"></div>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <i class="fab fa-git-alt"></i>
+                        <h3>Git</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="85"></div>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="88"></div>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <i class="fas fa-code"></i>
+                        <h3>VS Code</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="92"></div>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--  -->
+
+        <section id="projects" class="section">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Projects</h2>
+                    <p>Some of my recent work</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card reveal">
+
+                        <img src="dreamhome.png" alt="Project 1">
+
+                        <div class="project-content">
+
+                            <h3>Dream Home</h3>
+
+                            <p>
+                                esponsive Dream Home landing page using HTML, CSS & JavaScript.
+                            </p>
+
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-buttons">
+                                <a href="#">Live Demo</a>
+                                <a href="#">GitHub</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <article class="project-card reveal">
+
+                        <img src="landingpage.png" alt="Project 2">
+
+                        <div class="project-content">
+
+                            <h3>Responsive Landing Page</h3>
+
+                            <p>
+                                Professional responsive landing page with interactive UI using HTML, CCS and Js.
+                            </p>
+
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+
+                            <div class="project-buttons">
+                                <a href="#">Live Demo</a>
+                                <a href="#">GitHub</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <article class="project-card reveal">
+
+                        <img src="mobileshop.png" alt="Project 3">
+
+                        <div class="project-content">
+
+                            <h3>Mobile Shop Design</h3>
+
+                            <p>
+                                Conversion-focused mobile shop landing page designed with modern UI.
+                            </p>
+
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Responsive</span>
+                            </div>
+
+                            <div class="project-buttons">
+                                <a href="#">Live Demo</a>
+                                <a href="#">GitHub</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- EXPERIENCE -->
+
+        <section id="experience" class="section bg-light">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Experience Journey</h2>
+                </div>
+
+                <div class="timeline reveal">
+
+                    <div class="timeline-item">
+                        <h3>Frontend Development Learning</h3>
+                        <p>Built multiple responsive projects and portfolios.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Git & GitHub Workflow</h3>
+                        <p>Version control and project collaboration practice.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Internship Ready</h3>
+                        <p>Prepared to contribute to professional development teams.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SERVICES -->
+
+        <section id="services" class="section">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Services</h2>
+                </div>
+
+                <div class="services-grid">
+
+                    <div class="service-card reveal">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Frontend Development</h3>
+                    </div>
+
+                    <div class="service-card reveal">
+                        <i class="fas fa-mobile-screen"></i>
+                        <h3>Responsive Web Design</h3>
+                    </div>
+
+                    <div class="service-card reveal">
+                        <i class="fas fa-window-maximize"></i>
+                        <h3>Landing Page Development</h3>
+                    </div>
+
+                    <div class="service-card reveal">
+                        <i class="fas fa-screwdriver-wrench"></i>
+                        <h3>Website Maintenance</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- EDUCATION -->
+
+        <section id="education" class="section bg-light">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Education</h2>
+                </div>
+
+                <div class="education-timeline">
+
+                    <div class="edu-card reveal">
+                        <h3>BS Software Engineering</h3>
+                        <span>2023 - Present</span>
+                        <p>Currently in 6th Semester.</p>
+                    </div>
+
+                    <div class="edu-card reveal">
+                        <h3>Intermediate Education</h3>
+                        <span>Completed</span>
+                        <p>Pre-Engineering Background.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CERTIFICATES -->
+
+        <section id="certificates" class="section">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Certificates</h2>
+                </div>
+
+                <div class="certificate-grid">
+
+                    <div class="certificate-card reveal">
+                        <i class="fas fa-award"></i>
+                        <h3>HTML & CSS</h3>
+                        <p>Online Platform - 2024</p>
+                    </div>
+
+                    <div class="certificate-card reveal">
+                        <i class="fas fa-award"></i>
+                        <h3>JavaScript Fundamentals</h3>
+                        <p>Online Platform - 2024</p>
+                    </div>
+
+                    <div class="certificate-card reveal">
+                        <i class="fas fa-award"></i>
+                        <h3>Git & GitHub</h3>
+                        <p>Online Platform - 2025</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+
+        <section id="contact" class="section bg-light">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Contact Me</h2>
+                </div>
+
+                <form id="contactForm" class="contact-form reveal">
+
+                    <input type="text" id="name" placeholder="Your Name">
+                    <small class="error"></small>
+
+                    <input type="email" id="email" placeholder="Your Email">
+                    <small class="error"></small>
+
+                    <input type="text" id="subject" placeholder="Subject">
+                    <small class="error"></small>
+
+                    <textarea id="message"
+                        placeholder="Your Message"></textarea>
+                    <small class="error"></small>
+
+                    <button type="submit" class="btn btn-primary">
+                        Send Message
+                    </button>
+
+                    <div id="successMessage"></div>
+
+                </form>
+
+                <div class="social-links">
+
+    <a href="https://github.com/devdilawar" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/muhammad-dilawar-698059391" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>
+    </a>
+
+</div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                © <span id="year"></span>
+                Muhammad Dilawar.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
